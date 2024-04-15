@@ -3939,8 +3939,8 @@ game.import('character',function(lib,game,ui,get,ai,_status){
 						}
 						else if(target==trigger.player){
 							name='kyouko_rongzhu_notme';
-							player.addTempSkill(name);
-							player.addMark(name,1,false);
+							target.addTempSkill(name);
+							target.addMark(name,1,false);
 						}
 					}
 				},
